@@ -1,0 +1,22 @@
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.cache
+
+# Node modules (only if you ever add npm tools later)
+node_modules/
+
+# Build or dist folders (optional future-proofing)
+dist/
+build/
+``
