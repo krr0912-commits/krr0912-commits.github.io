@@ -292,43 +292,87 @@ button:active,
 }
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .header-text {
         font-size: 2rem;
     }
     
-    /* Hide absolutely positioned images on mobile */
+    /* Hide decorative images on mobile */
+    .topnav img,
     .topnav img[style*="position: absolute"],
+    .footer-content img,
     .footer-content img[style*="position: absolute"] {
-        display: none;
+        display: none !important;
     }
     
-    /* Reduce h1 size in navigation */
+    /* Adjust header text */
     .topnav h1 {
-        font-size: 2rem !important;
-        padding: 0 1rem;
+        font-size: 1.8rem !important;
+        padding: 0 10px !important;
     }
     
-    /* Stack navigation links */
+    /* Stack navigation links vertically */
     .topnav div[style*="display: flex"] {
-        flex-wrap: wrap;
+        flex-direction: column !important;
         gap: 0.5rem !important;
         padding: 0 1rem;
     }
     
+    /* Make navigation links full width */
     .topnav a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 0.75rem;
         font-size: 0.9rem;
-        padding: 0.5rem 0.75rem;
     }
     
-    /* Make info box more compact */
+    /* Adjust info boxes */
     .info-box,
     .form-container,
     .sheet-container {
-        padding: 1rem !important;
         margin: 1rem auto !important;
+        padding: 1rem !important;
+        max-width: 95% !important;
     }
     
+    /* Reduce heading sizes */
+    h1, h2 {
+        font-size: 1.5rem !important;
+    }
+    
+    h3, h4 {
+        font-size: 1.2rem !important;
+    }
+    
+    /* Adjust text sizes */
+    p, li {
+        font-size: 0.95rem !important;
+    }
+    
+    /* Stack flex layouts vertically */
+    div[style*="display: flex"] {
+        flex-direction: column !important;
+    }
+    
+    /* Make images responsive */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Hide sticky sidebar images */
+    div[style*="position: sticky"] {
+        display: none !important;
+    }
+    
+    /* Make iframes responsive */
+    iframe {
+        width: 100% !important;
+        min-height: 800px !important;
+    }
+    
+    /* Table responsiveness */
     #itemsTable th,
     #itemsTable td {
         padding: 0.75rem;
@@ -336,18 +380,14 @@ button:active,
     }
 }
 
-/* Skip to Main Content (Screen Reader) */
-.skip-link {
-    position: absolute;
-    top: -40px;
-    left: 0;
-    background: var(--orange-accent);
-    color: var(--navy-bg);
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.skip-link:focus {
-    top: 0;
+@media screen and (max-width: 480px) {
+    .topnav h1 {
+        font-size: 1.5rem !important;
+    }
+    
+    .info-box,
+    .form-container,
+    .sheet-container {
+        padding: 0.75rem !important;
+    }
 }
