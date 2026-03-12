@@ -8,18 +8,19 @@
     <title>Submit Lost Item - Marshall County Lost & Found</title>
 </head>
 
+<a href="#main" class="skip-to-content">Skip to main content</a>
 <nav>
-        <div class="topnav" role="navigation" aria-label="Main navigation" style="position: relative; flex-wrap: wrap; padding-bottom: 1rem;">
-           <a href="index.html" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);">
-               <img class="footer-pic" src="pictures/logo.png" alt="MCHS Logo" style="max-width: 150px; height: auto; display: block;">
+        <div class="topnav nav-header" role="navigation" aria-label="Main navigation">
+           <a href="index.html">
+               <img class="nav-logo" src="pictures/logo.png" alt="MCHS Logo">
            </a>
-           <img src="pictures/marshalman.png" alt="Marshalman" style="position: absolute; right: 5px; bottom: -40px; max-width: 200px; height: auto;">
+           <img class="nav-mascot" src="pictures/marshalman.png" alt="Marshalman">
            
-      <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; text-align: center; width: 100%; padding: 0 120px;">MCHS Lost and Found</h1>
+           <h1 class="nav-title">MCHS Lost and Found</h1>
 
-           <div style="display: flex; gap: 0.75rem; justify-content: center; width: 100%; margin-top: 0.5rem; flex-wrap: wrap;">
+           <div class="nav-links">
                <a href="index.html">Home</a>   
-               <a href="found_item.html">Submit Found Item</a>
+               <a href="found_item.html" class="is-active" aria-current="page">Submit Found Item</a>
                <a href="item_tracking.html">Item Tracking Sheet</a>
                <a href="claim_inquiry.html">Claim Inquiry</a> 
                <a href="contact.html">Contact Us</a>
@@ -31,9 +32,9 @@
 
 
 <body>
-    <main>
-        <div style="display: flex; gap: 2rem; max-width: 1400px; margin: 0 auto; padding: 1rem; align-items: flex-start;">
-            <div class="form-container" style="flex: 1; min-width: 0;">
+    <main id="main">
+        <div class="form-layout">
+            <div class="form-container form-main">
                 <iframe 
                     src="https://docs.google.com/forms/d/e/1FAIpQLSeJzKilVhlruju1ByScpP90Rei3fMd6CupGrKqgfBljdHhCHQ/viewform?embedded=true" 
                     width="100%" 
@@ -46,24 +47,24 @@
                 </iframe>
             </div>
             
-        <div style="flex-shrink: 0;">
-                <img src="pictures/Looking.webp" alt="Looking for lost items" style="max-width: 250px; height: auto; border-radius: 8px; position: sticky; top: 1rem;">
-                <div style="margin-top: 1rem; padding: 0.75rem; background-color: #fff3e0; border: 2px solid #FF8C00; border-radius: 8px; text-align: center; max-width: 250px;">
-                    <p style="color: #001f3f; font-size: 0.9rem; font-weight: bold; margin: 0;">
+            <div class="form-sidebar">
+                <img class="sidebar-image" src="pictures/Looking.webp" alt="Looking for lost items">
+                <div class="sidebar-notice">
+                    <p>
                         ⬇️ Scroll to complete form
                     </p>
                 </div>
             </div>
         </div>
 
-        <div style="text-align: center; margin-top: 20px;">
+        <div class="back-link">
             <a href="index.html">← Home</a>
         </div>
     </main>
 
     <footer role="contentinfo">
-        <div style="text-align: center; padding: 0.75rem; background-color: rgba(255, 140, 0, 0.15); border-top: 2px solid #FF8C00; margin-bottom: 1rem;">
-            <p style="color: #FFFFFF; font-size: 0.85rem; margin: 0;">
+        <div class="footer-disclaimer">
+            <p>
                 ⚠️ DISCLAIMER: This website has been created as a student project and is not intended for public use.
             </p>
         </div>

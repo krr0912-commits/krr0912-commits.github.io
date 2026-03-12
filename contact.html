@@ -11,50 +11,44 @@
     <body>
 
 
+<a href="#main" class="skip-to-content">Skip to main content</a>
 <nav>
-        <div class="topnav" role="navigation" aria-label="Main navigation" style="position: relative; flex-wrap: wrap; padding-bottom: 1rem;">
-           <a href="index.html" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);">
-               <img class="footer-pic" src="pictures/logo.png" alt="MCHS Logo" style="max-width: 150px; height: auto; display: block;">
+        <div class="topnav nav-header" role="navigation" aria-label="Main navigation">
+           <a href="index.html">
+               <img class="nav-logo" src="pictures/logo.png" alt="MCHS Logo">
            </a>
-           <img src="pictures/marshalman.png" alt="Marshalman" style="position: absolute; right: 5px; bottom: -40px; max-width: 200px; height: auto;">
+           <img class="nav-mascot" src="pictures/marshalman.png" alt="Marshalman">
            
-      <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; text-align: center; width: 100%; padding: 0 120px;">MCHS Lost and Found</h1>
+           <h1 class="nav-title">MCHS Lost and Found</h1>
 
-           <div style="display: flex; gap: 0.75rem; justify-content: center; width: 100%; margin-top: 0.5rem; flex-wrap: wrap;">
+           <div class="nav-links">
                <a href="index.html">Home</a>   
                <a href="found_item.html">Submit Found Item</a>
                <a href="item_tracking.html">Item Tracking Sheet</a>
                <a href="claim_inquiry.html">Claim Inquiry</a> 
-               <a href="contact.html">Contact Us</a>
+               <a href="contact.html" class="is-active" aria-current="page">Contact Us</a>
                <a href="sources.html">Sources</a>
            </div>
         </div>
 </nav>
 
-        <main>
-              <h1 class="contact-head" align="center">For assistance, please see below!</h1>
-              <div class="split"></div>
-              <br>
-
-              <div class="row">
-                <div class="contact-column">
-                    <div style="display: flex; gap: 2rem; max-width: 1200px; margin: 0 auto 2rem auto; align-items: flex-start;">
-                        <div style="max-width: 800px; flex: 1; padding: 1.5rem; background-color: white; border: 3px solid #FF8C00; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
-                            <ul style="color: #000000; font-size: 1rem; text-align: left; list-style-position: inside; margin: 0; padding-left: 1rem;">
-                                <li style="margin-bottom: 1rem;"><strong>For Chromebook specific issues</strong>, please contact the MCHS Help Desk at <a href="mailto:help.desk@marshall.kyschool.us" style="color: #FF8C00;">help.desk@marshall.kyschool.us</a></li>
-                                <li style="margin-bottom: 1rem;"><strong>For "Lost & Found" specific issues, general process questions or assistance with uploading a picture,</strong> please email <a href="mailto:fbla.admin@marshall.kyschools.us" style="color: #FF8C00;">fbla.admin@marshall.kyschools.us</a></li>
+        <main id="main">
+              <div class="contact-layout">
+                        <div class="contact-content">
+                            <ul>
+                                <li><strong>For Chromebook specific issues</strong>, please contact the MCHS Help Desk at <a href="mailto:help.desk@marshall.kyschool.us">help.desk@marshall.kyschool.us</a></li>
+                                <li><strong>For "Lost & Found" specific issues, general process questions or assistance with uploading a picture,</strong> please email <a href="mailto:fbla.admin@marshall.kyschools.us">fbla.admin@marshall.kyschools.us</a></li>
                             </ul>
-                            <p style="color: #000000; font-size: 1rem; font-weight: bold; margin: 1rem 0 0 0; text-align: center;">Have a good day!</p>
+                            <p>Have a good day!</p>
                         </div>
                         
-                        <div style="flex-shrink: 0;">
-                            <img src="pictures/help-desk.jpg" alt="Help Desk" style="max-width: 210px; height: auto; border-radius: 8px;">
+                        <div>
+                            <img class="contact-image" src="pictures/help-desk.jpg" alt="Help Desk">
                         </div>
                     </div>
                 </div>
-              </div>
 
-              <div style="text-align: center; margin-top: 20px;">
+              <div class="back-link">
                 <a href="index.html">← Home</a>
               </div>
 
@@ -62,15 +56,15 @@
         </main>
 
         <footer role="contentinfo">
-            <div style="text-align: center; padding: 0.75rem; background-color: rgba(255, 140, 0, 0.15); border-top: 2px solid #FF8C00; margin-bottom: 1rem;">
-                <p style="color: #000000; font-size: 1rem; font-weight: bold; margin: 0;">
+            <div class="footer-disclaimer">
+                <p>
                     ⚠️ DISCLAIMER: This website has been created as a student project and is not intended for public use.
                 </p>
             </div>
-            <div class="footer-content" style="position: relative;">
+            <div class="footer-content footer-content-positioned">
                 <p class="footer-text">Site maintained by your MCHS FBLA Chapter.</p>
-                <img src="pictures/found.jpg" alt="Found Items" style="position: absolute; left: 20px; top: 50%; transform: translateY(-50%); max-width: 150px; height: auto;">
-                <img src="pictures/box_lost-found.png" alt="Lost and Found" style="position: absolute; right: 20px; top: 50%; transform: translateY(-50%); max-width: 120px; height: auto;">
+                <img class="footer-image-left" src="pictures/found.jpg" alt="Found Items">
+                <img class="footer-image-right" src="pictures/box_lost-found.png" alt="Lost and Found">
             </div>
         </footer>
 

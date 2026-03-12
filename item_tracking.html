@@ -8,19 +8,20 @@
     <title>Marshall County Found Items Tracking Sheet</title>
 </head>
 
+<a href="#main" class="skip-to-content">Skip to main content</a>
 <nav>
-        <div class="topnav" role="navigation" aria-label="Main navigation" style="position: relative; flex-wrap: wrap; padding-bottom: 1rem;">
-           <a href="index.html" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%);">
-               <img class="footer-pic" src="pictures/logo.png" alt="MCHS Logo" style="max-width: 150px; height: auto; display: block;">
+        <div class="topnav nav-header" role="navigation" aria-label="Main navigation">
+           <a href="index.html">
+               <img class="nav-logo" src="pictures/logo.png" alt="MCHS Logo">
            </a>
-           <img src="pictures/marshalman.png" alt="Marshalman" style="position: absolute; right: 5px; bottom: -40px; max-width: 200px; height: auto;">
+           <img class="nav-mascot" src="pictures/marshalman.png" alt="Marshalman">
            
-      <h1 style="color: white; font-size: 3rem; margin-bottom: 1rem; text-align: center; width: 100%; padding: 0 120px;">MCHS Lost and Found</h1>
+           <h1 class="nav-title">MCHS Lost and Found</h1>
 
-           <div style="display: flex; gap: 0.75rem; justify-content: center; width: 100%; margin-top: 0.5rem; flex-wrap: wrap;">
+           <div class="nav-links">
                <a href="index.html">Home</a>   
                <a href="found_item.html">Submit Found Item</a>
-               <a href="item_tracking.html">Item Tracking Sheet</a>
+               <a href="item_tracking.html" class="is-active" aria-current="page">Item Tracking Sheet</a>
                <a href="claim_inquiry.html">Claim Inquiry</a> 
                <a href="contact.html">Contact Us</a>
                <a href="sources.html">Sources</a>
@@ -34,8 +35,8 @@
         <h1 class="header-text">Marshall County Found Items Tracking Sheet</h1>
     </header>
 
-    <main style="max-width: 95%; width: 100%;">
-        <div class="sheet-container" style="overflow-x: auto; -webkit-overflow-scrolling: touch;">
+    <main id="main" class="sheet-container-wrapper">
+        <div class="sheet-container sheet-scrollable">
             
             <iframe 
                 src="https://docs.google.com/spreadsheets/d/1LY6dhpEAzCQBuJ9sjzTn-MrrJYUZsIyMDFLZvRuhO54/edit?usp=sharing" 
@@ -47,15 +48,15 @@
             </iframe>
         </div>
 
-        <div style="text-align: center; margin-top: 20px;">
-            <p style="color: white; font-size: 0.9rem; margin-bottom: 10px;">💡 Tip: Scroll horizontally to view all columns on mobile devices</p>
+        <div class="back-link">
+            <p class="sheet-tip">💡 Tip: Scroll horizontally to view all columns on mobile devices</p>
             <a href="found_item.html">← Back to Found Item Submission Form</a>
         </div>
     </main>
 
     <footer role="contentinfo">
-        <div style="text-align: center; padding: 0.75rem; background-color: rgba(255, 140, 0, 0.15); border-top: 2px solid #FF8C00; margin-bottom: 1rem;">
-            <p style="color: #FFFFFF; font-size: 0.85rem; margin: 0;">
+        <div class="footer-disclaimer">
+            <p>
                 ⚠️ DISCLAIMER: This website has been created as a student project and is not intended for public use.
             </p>
         </div>
