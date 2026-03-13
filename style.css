@@ -541,6 +541,13 @@ footer {
     line-height: 1.55;
 }
 
+.sources-box-title {
+    color: var(--navy-bg);
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 0.6rem;
+}
+
 .sources-page .sources-section h4 {
     margin-top: 1rem;
     margin-bottom: 0.3rem;
