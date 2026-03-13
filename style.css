@@ -160,6 +160,18 @@ header {
     .nav-title {
         padding: 0 145px;
     }
+
+    .nav-logo,
+    .nav-mascot {
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .nav-links,
+    .topnav a {
+        position: relative;
+        z-index: 3;
+    }
 }
 
 .topnav a {
