@@ -103,8 +103,8 @@ header {
 
 .nav-logo {
     position: absolute;
-    right: 10px;
-    top: 50%;
+    right: 18px;
+    top: 44%;
     transform: translateY(-50%);
     max-width: 120px;
     height: auto;
@@ -114,9 +114,9 @@ header {
 .nav-mascot {
     position: absolute;
     left: 8px;
-    top: 4px;
+    top: 2px;
     transform: none;
-    max-width: 125px;
+    max-width: 145px;
     height: auto;
     pointer-events: none;
 }
@@ -142,13 +142,15 @@ header {
 
 @media screen and (max-width: 1100px) {
     .nav-mascot {
-        max-width: 100px;
+        max-width: 115px;
         left: 6px;
-        top: 8px;
+        top: 6px;
     }
 
     .nav-logo {
         max-width: 100px;
+        right: 14px;
+        top: 42%;
     }
 
     .nav-links {
