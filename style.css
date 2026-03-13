@@ -109,8 +109,6 @@ header {
     max-width: 180px;
     height: auto;
     display: block;
-    z-index: 1;
-    pointer-events: none;
 }
 
 .nav-mascot {
@@ -121,7 +119,6 @@ header {
     max-width: 218px;
     height: auto;
     pointer-events: none;
-    z-index: 1;
 }
 
 .nav-title {
@@ -141,8 +138,6 @@ header {
     margin-top: 0.5rem;
     flex-wrap: wrap;
     padding: 0 210px 0 230px;
-    position: relative;
-    z-index: 3;
 }
 
 @media screen and (max-width: 1100px) {
