@@ -498,6 +498,11 @@ footer {
     color: var(--navy-bg);
 }
 
+.sources-section .source-desc {
+    color: var(--black-text);
+    font-weight: 400;
+}
+
 .sources-footer-section {
     margin-top: 2rem;
     padding-top: 1.5rem;
@@ -518,6 +523,41 @@ footer {
 
 .sources-page .info-box {
     background-color: #F2F4F7;
+    max-width: 980px;
+    margin: 1.5rem auto;
+    padding: 1.25rem 1.5rem;
+}
+
+.sources-page header {
+    padding: 1rem 0.75rem;
+}
+
+.sources-page .page-title {
+    margin-bottom: 0.25rem;
+}
+
+.sources-page .sources-section {
+    font-size: 1rem;
+    line-height: 1.55;
+}
+
+.sources-page .sources-section h4 {
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.sources-page .sources-section ul {
+    margin-left: 1.25rem;
+    margin-bottom: 0.35rem;
+}
+
+.sources-page .sources-section li {
+    margin-bottom: 0.2rem;
+}
+
+.sources-page .sources-footer-section {
+    margin-top: 1rem;
+    padding-top: 0.85rem;
 }
 
 /* ================================================
@@ -566,12 +606,12 @@ footer {
     h3, h4 {
         font-size: 1.2rem !important;
     }
-    
+
     /* Adjust text sizes */
     p, li {
         font-size: 0.95rem !important;
     }
-    
+
     /* Make images responsive */
     img {
         max-width: 100% !important;
