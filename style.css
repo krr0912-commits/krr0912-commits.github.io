@@ -114,9 +114,9 @@ header {
 .nav-mascot {
     position: absolute;
     left: 8px;
-    top: 2px;
+    top: -14px;
     transform: none;
-    max-width: 218px;
+    max-width: 180px;
     height: auto;
     pointer-events: none;
 }
