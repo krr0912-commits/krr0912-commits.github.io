@@ -528,12 +528,10 @@ footer {
     padding: 1.25rem 1.5rem;
 }
 
-.sources-page header {
-    padding: 1rem 0.75rem;
-}
-
-.sources-page .page-title {
-    margin-bottom: 0.25rem;
+.sources-page header,
+.sources-page .page-title,
+.sources-page .header-text.page-title {
+    display: none !important;
 }
 
 .sources-page .sources-section {
@@ -543,8 +541,10 @@ footer {
 
 .sources-box-title {
     color: var(--navy-bg);
+    display: block;
     text-align: center;
     font-weight: 700;
+    margin-top: 0;
     margin-bottom: 0.6rem;
 }
 
