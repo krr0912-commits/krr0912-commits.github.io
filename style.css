@@ -586,15 +586,9 @@ footer {
         min-height: 100px;
     }
 
-    .nav-logo {
-        display: none !important;
-    }
-
+    .nav-logo,
     .nav-mascot {
-        display: block !important;
-        max-width: 108px;
-        left: 8px;
-        top: 8px;
+        display: none !important;
     }
 
     /* Keep links tappable on touch devices */
@@ -611,7 +605,7 @@ footer {
     /* Adjust header text */
     .topnav h1 {
         font-size: 1.8rem !important;
-        padding: 0 12px 0 116px !important;
+        padding: 0 12px !important;
     }
 
     .nav-links {
@@ -695,13 +689,7 @@ footer {
 @media screen and (max-width: 480px) {
     .topnav h1 {
         font-size: 1.5rem !important;
-        padding: 0 8px 0 84px !important;
-    }
-
-    .nav-mascot {
-        max-width: 90px;
-        left: 6px;
-        top: 10px;
+        padding: 0 8px !important;
     }
 
     .nav-links,
