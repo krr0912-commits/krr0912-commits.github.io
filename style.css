@@ -201,6 +201,21 @@ header {
     background-color: var(--white-text);
 }
 
+/* Touch-device safety: never let decorative nav images block taps */
+@media (hover: none) and (pointer: coarse) {
+    .nav-header > a,
+    .nav-logo,
+    .nav-mascot {
+        pointer-events: none !important;
+    }
+
+    .nav-links,
+    .nav-links a {
+        position: relative;
+        z-index: 30;
+    }
+}
+
 /* Main content wrapper */
 main {
     flex: 1;
