@@ -106,7 +106,7 @@ header {
     right: 18px;
     top: 44%;
     transform: translateY(-50%);
-    max-width: 120px;
+    max-width: 150px;
     height: auto;
     display: block;
 }
@@ -116,7 +116,7 @@ header {
     left: 8px;
     top: 2px;
     transform: none;
-    max-width: 145px;
+    max-width: 181px;
     height: auto;
     pointer-events: none;
 }
@@ -127,7 +127,7 @@ header {
     margin-bottom: 1rem;
     text-align: center;
     width: 100%;
-    padding: 0 110px;
+    padding: 0 150px;
 }
 
 .nav-links {
@@ -137,28 +137,28 @@ header {
     width: 100%;
     margin-top: 0.5rem;
     flex-wrap: wrap;
-    padding: 0 120px 0 150px;
+    padding: 0 150px 0 190px;
 }
 
 @media screen and (max-width: 1100px) {
     .nav-mascot {
-        max-width: 115px;
+        max-width: 144px;
         left: 6px;
         top: 6px;
     }
 
     .nav-logo {
-        max-width: 100px;
+        max-width: 125px;
         right: 14px;
         top: 42%;
     }
 
     .nav-links {
-        padding: 0 90px;
+        padding: 0 110px;
     }
 
     .nav-title {
-        padding: 0 90px;
+        padding: 0 110px;
     }
 }
 
@@ -523,12 +523,6 @@ footer {
     text-align: center;
 }
 
-.sources-page .nav-logo {
-    width: 90px;
-    max-width: 90px;
-    height: auto;
-}
-
 .sources-page .info-box {
     background-color: #F2F4F7;
     max-width: 980px;
@@ -598,7 +592,7 @@ footer {
 
     .nav-mascot {
         display: block !important;
-        max-width: 72px;
+        max-width: 90px;
         left: 8px;
         top: 8px;
     }
@@ -606,7 +600,7 @@ footer {
     /* Adjust header text */
     .topnav h1 {
         font-size: 1.8rem !important;
-        padding: 0 12px 0 84px !important;
+        padding: 0 12px 0 98px !important;
     }
 
     .nav-links {
@@ -690,11 +684,11 @@ footer {
 @media screen and (max-width: 480px) {
     .topnav h1 {
         font-size: 1.5rem !important;
-        padding: 0 8px 0 72px !important;
+        padding: 0 8px 0 84px !important;
     }
 
     .nav-mascot {
-        max-width: 60px;
+        max-width: 75px;
         left: 6px;
         top: 10px;
     }
