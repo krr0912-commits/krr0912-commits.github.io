@@ -98,7 +98,7 @@ header {
     position: relative;
     flex-wrap: wrap;
     padding-bottom: 0.5rem;
-    min-height: 120px;
+    min-height: 150px;
 }
 
 .nav-logo {
@@ -106,7 +106,7 @@ header {
     right: 18px;
     top: 44%;
     transform: translateY(-50%);
-    max-width: 150px;
+    max-width: 180px;
     height: auto;
     display: block;
 }
@@ -116,7 +116,7 @@ header {
     left: 8px;
     top: 2px;
     transform: none;
-    max-width: 181px;
+    max-width: 218px;
     height: auto;
     pointer-events: none;
 }
@@ -127,7 +127,7 @@ header {
     margin-bottom: 1rem;
     text-align: center;
     width: 100%;
-    padding: 0 150px;
+    padding: 0 210px;
 }
 
 .nav-links {
@@ -137,28 +137,28 @@ header {
     width: 100%;
     margin-top: 0.5rem;
     flex-wrap: wrap;
-    padding: 0 150px 0 190px;
+    padding: 0 210px 0 230px;
 }
 
 @media screen and (max-width: 1100px) {
     .nav-mascot {
-        max-width: 144px;
+        max-width: 173px;
         left: 6px;
         top: 6px;
     }
 
     .nav-logo {
-        max-width: 125px;
+        max-width: 150px;
         right: 14px;
         top: 42%;
     }
 
     .nav-links {
-        padding: 0 110px;
+        padding: 0 145px;
     }
 
     .nav-title {
-        padding: 0 110px;
+        padding: 0 145px;
     }
 }
 
@@ -592,7 +592,7 @@ footer {
 
     .nav-mascot {
         display: block !important;
-        max-width: 90px;
+        max-width: 108px;
         left: 8px;
         top: 8px;
     }
@@ -600,7 +600,7 @@ footer {
     /* Adjust header text */
     .topnav h1 {
         font-size: 1.8rem !important;
-        padding: 0 12px 0 98px !important;
+        padding: 0 12px 0 116px !important;
     }
 
     .nav-links {
@@ -688,7 +688,7 @@ footer {
     }
 
     .nav-mascot {
-        max-width: 75px;
+        max-width: 90px;
         left: 6px;
         top: 10px;
     }
