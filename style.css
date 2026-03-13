@@ -157,30 +157,18 @@ header {
 }
 
 @media screen and (max-width: 1100px) {
+    .nav-header > a,
+    .nav-logo,
     .nav-mascot {
-        max-width: 173px;
-        left: 6px;
-        top: 6px;
-    }
-
-    .nav-logo {
-        max-width: 150px;
-        right: 14px;
-        top: 42%;
+        display: none !important;
     }
 
     .nav-links {
-        padding: 0 145px;
+        padding: 0 20px;
     }
 
     .nav-title {
-        padding: 0 145px;
-    }
-
-    .nav-logo,
-    .nav-mascot {
-        pointer-events: none;
-        z-index: 1;
+        padding: 0 20px;
     }
 
     .nav-links,
