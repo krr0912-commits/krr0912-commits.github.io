@@ -742,3 +742,25 @@ footer {
         display: none !important;
     }
 }
+
+/* iPad landscape safeguard */
+@media screen and (max-width: 1366px) and (orientation: landscape) {
+    .nav-header > a,
+    .nav-logo,
+    .nav-mascot {
+        display: none !important;
+        pointer-events: none !important;
+    }
+
+    .nav-title,
+    .nav-links {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+    }
+
+    .nav-links,
+    .nav-links a {
+        position: relative;
+        z-index: 30;
+    }
+}
